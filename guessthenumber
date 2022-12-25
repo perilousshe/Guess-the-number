@@ -13,7 +13,7 @@ printf("WELCOME TO GUESS THE NO. GAME\n");
 printf("============================\n");
 //printf("%d\n",num);
 do{
-printf("Enter a no.:\n");
+printf("Enter a no. from 1 to 100:\n");
 scanf("%d",&guess);
 if(guess>num){
     printf("lower no. please\n");
